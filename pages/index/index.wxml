@@ -1,0 +1,30 @@
+<view class="search-box" >
+  <input type="text" value="" placeholder="输入您的星座来查询近七天的信息" class="search"/>
+  <icon type="search" class="search-icon" bindtap="searchClick"></icon>
+</view>
+<view class="nav">
+  <view class="nav-content">星族日报</view>
+  <view class="nav-content">星座周报</view>
+  <view class="nav-content">星座月报</view>
+  <view class="nav-content">星座年报</view>
+</view>
+<view class="line-box">
+  <text style="margin-left: 8px;">星座日报</text>
+  <view class="line"></view>
+  <hr/>
+</view>
+<view class="content-box">
+  <view class="content" wx:for="{{datas}}">
+   <view class="img-box"><image src="../../img/{{item.url}}" style="width:110px;height:110px"></image></view>
+    <view>
+      <text selectable="true">名称:{{item.name}}\n</text>
+      <text selectable="true">速配星座:{{item.QFriend}}\n</text>
+      <text selectable="true">幸运数字:{{item.number}}\n</text>
+      <text selectable="true">健康值:{{item.health}}\n</text>
+      <text selectable="true">爱情指数:{{item.love}}\n</text>
+      <text selectable="true">工作指数:{{item.work}}\n</text>
+      <text selectable="true">综合指数:{{item.total}}\n</text>
+      <text selectable="true">总结:{{item.summary}}\n</text>
+    </view>
+  </view>
+</view>
