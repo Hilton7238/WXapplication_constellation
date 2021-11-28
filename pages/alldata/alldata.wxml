@@ -1,0 +1,66 @@
+<view class="img-box">
+  <view class="img"><image src="../../img/{{img.url}}" style="width:110px;height:110px"></image></view>
+</view>
+<view class="line-box">
+  <text style="margin-left: 8px;">星座日报</text>
+  <view class="line"></view>
+  <hr/>
+</view>
+<view class="content">
+    <text selectable="true"><text class="bold">名称:</text>{{today.name}}\n</text>
+    <text selectable="true"><text class="bold">适配星座:</text>{{today.QFriend}}\n</text>
+    <text selectable="true"><text class="bold">幸运数:</text>{{today.number}}\n</text>
+    <text selectable="true"><text class="bold">健康:</text>{{today.health}}\n</text>
+    <text selectable="true"><text class="bold">爱情:</text>{{today.love}}\n</text>
+    <text selectable="true"><text class="bold">事业:</text>{{today.work}}\n</text>
+    <text selectable="true"><text class="bold">总评:</text>{{today.total}}\n</text>
+    <text selectable="true"><text class="bold">总结:</text>{{today.summary}}\n</text>
+</view>
+<view class="line-box">
+  <text style="margin-left: 8px;">星座周报</text>
+  <view class="line"></view>
+  <hr/>
+</view>
+<view class="content" >
+    <text selectable="true"><text class="bold">名称:</text>{{week.name}}\n</text>
+    <text selectable="true"><text class="bold">日期:</text>{{week.date}}\n</text>
+    <text selectable="true"><text class="bold">事业:</text>{{week.job}}\n</text>
+    <text selectable="true"><text class="bold">健康:</text>{{week.health}}\n</text>
+    <text selectable="true"><text class="bold">爱情:</text>{{week.love}}\n</text>
+    <text selectable="true"><text class="bold">财运:</text>{{week.money}}\n</text>
+    <text selectable="true"><text class="bold">周运:</text>{{week.weekth}}\n</text>
+</view>
+<view class="line-box">
+  <text style="margin-left: 8px;">星座月报</text>
+  <view class="line"></view>
+  <hr/>
+</view>
+<view class="content">
+    <text selectable="true"><text class="bold"><text class="bold">名称:</text></text>{{month.name}}\n</text>
+    <text selectable="true"><text class="bold"><text class="bold">月份:</text></text>{{month.month}}\n</text>
+    <text selectable="true"><text class="bold"><text class="bold">事业:</text></text>{{month.work}}\n</text>
+    <text selectable="true"><text class="bold"><text class="bold">健康:</text></text>{{month.health}}\n</text>
+    <text selectable="true"><text class="bold"><text class="bold">爱情:</text></text>{{month.love}}\n</text>
+    <text selectable="true"><text class="bold"><text class="bold">财运:</text></text>{{month.money}}\n</text>
+    <text selectable="true"><text class="bold"><text class="bold">总评:</text></text>{{month.total}}\n</text>
+    <text selectable="true"><text class="bold"><text class="bold">开心魔法:</text></text>{{month.happymagic}}\n</text>
+</view>
+<view class="line-box">
+  <text style="margin-left: 8px;">星座月报</text>
+  <view class="line"></view>
+  <hr/>
+</view>
+  <view class="content">
+    <text selectable="true"><text class="bold">名称:</text>{{year.name}}\n</text>
+    <text selectable="true"><text class="bold">年份:</text>{{year.year}}\n</text>
+    <text selectable="true"><text class="bold">星相:</text>{{year.career}}\n</text>
+    <text selectable="true"><text class="bold">财运:</text>{{year.finance}}\n</text>
+    <text selectable="true"><text class="bold">健康:</text>{{year.health}}\n</text>
+    <text selectable="true"><text class="bold">爱情:</text>{{year.love}}\n</text>
+    <text selectable="true"><text class="bold">详情:</text>{{year.text}}\n</text>
+    <text selectable="true"><text class="bold">建议:</text>{{year.info}}\n</text>
+    <text selectable="true"><text class="bold">幸运石:</text>{{year.luckerstone}}\n</text>
+    <text selectable="true"><text class="bold">fucture:</text>{{year.fucture}}\n</text>
+</view>
+<loading hidden="{{loading}}"></loading>
+

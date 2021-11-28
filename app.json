@@ -2,7 +2,11 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/detail/detail"
+    "pages/weekdetail/weekdetail",
+    "pages/monthdetail/monthdetail",
+    "pages/yeardetail/yeardetail",
+    "pages/todaydetail/todaydetail",
+    "pages/alldata/alldata"
   ],
   "window": {
     "backgroundTextStyle": "light",

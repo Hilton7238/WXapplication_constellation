@@ -6,7 +6,7 @@
   "setting": {
     "urlCheck": false,
     "es6": true,
-    "enhance": false,
+    "enhance": true,
     "postcss": true,
     "preloadBackgroundData": false,
     "minified": true,
@@ -23,6 +23,7 @@
     "compileHotReLoad": false,
     "useMultiFrameRuntime": true,
     "useApiHook": true,
+    "useApiHostProcess": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -37,20 +38,21 @@
     "disableUseStrict": false,
     "showES6CompileOption": false,
     "useCompilerPlugins": false,
-    "minifyWXML": true,
-    "useApiHostProcess": true
+    "minifyWXML": true
   },
   "compileType": "miniprogram",
-  "libVersion": "2.14.0",
-  "appid": "wx591dc5c959a118c6",
-  "projectname": "WXapplication",
+  "libVersion": "2.17.0",
+  "appid": "wx67d309cb99c266f4",
+  "projectname": "miniprogram-1",
   "debugOptions": {
     "hidedInDevtools": []
   },
   "scripts": {},
+  "staticServerOptions": {
+    "baseURL": "",
+    "servePath": ""
+  },
   "isGameTourist": false,
-  "simulatorType": "wechat",
-  "simulatorPluginLibVersion": {},
   "condition": {
     "search": {
       "list": []

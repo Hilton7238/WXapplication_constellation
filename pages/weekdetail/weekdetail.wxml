@@ -1,7 +1,3 @@
-<view class="search-box" >
-  <input type="text" value="{{inputValue}}" placeholder="输入您的星座来查询全部信息" class="search" bindinput="input" confirm-type="search" bindconfirm="searchClick" />
-  <icon type="search" class="search-icon" bindtap="searchClick"></icon>
-</view>
 <view class="nav">
   <view class="nav-content" bindtap="navClick" data-name="星座日报">星座日报</view>
   <view class="nav-content" bindtap="navClick" data-name="星座周报">星座周报</view>
@@ -9,7 +5,7 @@
   <view class="nav-content" bindtap="navClick" data-name="星座年报">星座年报</view>
 </view>
 <view class="line-box">
-  <text style="margin-left: 8px;">星座日报</text>
+  <text style="margin-left: 8px;">星座周报</text>
   <view class="line"></view>
   <hr/>
 </view>
@@ -18,13 +14,12 @@
    <view class="img-box"><image src="../../img/{{item.url}}" style="width:110px;height:110px"></image></view>
     <view>
       <text selectable="true"><text class="bold">名称:</text>{{item.name}}\n</text>
-      <text selectable="true"><text class="bold">适配星座:</text>{{item.QFriend}}\n</text>
-      <text selectable="true"><text class="bold">幸运数:</text>{{item.number}}\n</text>
+      <text selectable="true"><text class="bold">日期:</text>{{item.date}}\n</text>
+      <text selectable="true"><text class="bold">事业:</text>{{item.job}}\n</text>
       <text selectable="true"><text class="bold">健康:</text>{{item.health}}\n</text>
       <text selectable="true"><text class="bold">爱情:</text>{{item.love}}\n</text>
-      <text selectable="true"><text class="bold">事业:</text>{{item.work}}\n</text>
-      <text selectable="true"><text class="bold">总评:</text>{{item.total}}\n</text>
-      <text selectable="true"><text class="bold">总结:</text>{{item.summary}}\n</text>
+      <text selectable="true"><text class="bold">财运:</text>{{item.money}}\n</text>
+      <text selectable="true"><text class="bold">周运:</text>{{item.weekth}}\n</text>
     </view>
   </view>
 </view>

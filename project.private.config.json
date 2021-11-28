@@ -1,0 +1,48 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/alldata/alldata",
+          "pathName": "pages/alldata/alldata",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/weekdetail/weekdetail",
+          "pathName": "pages/weekdetail/weekdetail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/yeardetail/yeardetail",
+          "pathName": "pages/yeardetail/yeardetail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/alldata/alldata",
+          "pathName": "pages/alldata/alldata",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

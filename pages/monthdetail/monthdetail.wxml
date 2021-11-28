@@ -1,0 +1,28 @@
+<view class="nav">
+  <view class="nav-content" bindtap="navClick" data-name="星座日报">星座日报</view>
+  <view class="nav-content" bindtap="navClick" data-name="星座周报">星座周报</view>
+  <view class="nav-content" bindtap="navClick" data-name="星座月报">星座月报</view>
+  <view class="nav-content" bindtap="navClick" data-name="星座年报">星座年报</view>
+</view>
+<view class="line-box">
+  <text style="margin-left: 8px;">星座月报</text>
+  <view class="line"></view>
+  <hr/>
+</view>
+<view class="content-box">
+  <view class="content" wx:for="{{datas}}">
+   <view class="img-box"><image src="../../img/{{item.url}}" style="width:110px;height:110px"></image></view>
+    <view>
+      <text selectable="true"><text class="bold"><text class="bold">名称:</text></text>{{item.name}}\n</text>
+      <text selectable="true"><text class="bold"><text class="bold">月份:</text></text>{{item.month}}\n</text>
+      <text selectable="true"><text class="bold"><text class="bold">事业:</text></text>{{item.work}}\n</text>
+      <text selectable="true"><text class="bold"><text class="bold">健康:</text></text>{{item.health}}\n</text>
+      <text selectable="true"><text class="bold"><text class="bold">爱情:</text></text>{{item.love}}\n</text>
+      <text selectable="true"><text class="bold"><text class="bold">财运:</text></text>{{item.money}}\n</text>
+      <text selectable="true"><text class="bold"><text class="bold">总评:</text></text>{{item.total}}\n</text>
+      <text selectable="true"><text class="bold"><text class="bold">开心魔法:</text></text>{{item.happymagic}}\n</text>
+    </view>
+  </view>
+</view>
+<loading hidden="{{loading}}">加载中...</loading>
+
